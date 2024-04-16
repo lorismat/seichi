@@ -3,7 +3,7 @@
     <div>
       <div class="font-bold font-xl text-center font-serif">MUSASHI ARTICLE</div>
     </div>
-    <div class="text-center p-12">
+    <div class="text-center p-0 sm:p-6">
       <h1 class="uppercase">{{ title }}</h1>
       <div>
         <MapComponent 
