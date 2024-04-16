@@ -1,8 +1,5 @@
 <template>
-  <div class="flex flex-col items-center py-20">
-    <div class="py-2">
-      {{ headerMap }}
-    </div>
+  <div class="flex flex-col items-center py-12">
     <div id="my-map">
       <div class="pop-up-container">
         <div class="popup-map" :style="{ 'visibility': activePopup.visibility }">

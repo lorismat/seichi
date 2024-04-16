@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <div class="font-bold font-xl">
-      <div>
-        
-      </div>
-    </div>
+  <div class="max-w-limit m-auto">
+    <PageTitle title="carte" />
   </div>
 </template>
 

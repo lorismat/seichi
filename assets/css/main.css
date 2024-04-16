@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Source Serif";
+  src: url('../fonts/Source_Serif/SourceSerif4-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+         url('../fonts/Source_Serif/SourceSerif4-Regular.ttf') format('woff2'),             /* Super Modern Browsers */
+         url('../fonts/Source_Serif/SourceSerif4-Regular.ttf') format('woff'),              /* Pretty Modern Browsers */
+         url('../fonts/Source_Serif/SourceSerif4-Regular.ttf') format('truetype'),          /* Safari, Android, iOS */
+         url('../fonts/Source_Serif/SourceSerif4-Regular.ttf') format('svg');               /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Noto JP";
+  src: url('../fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+         url('../fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('woff2'),             /* Super Modern Browsers */
+         url('../fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('woff'),              /* Pretty Modern Browsers */
+         url('../fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('truetype'),          /* Safari, Android, iOS */
+         url('../fonts/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('svg');               /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+         url('../fonts/Poppins/Poppins-Regular.ttf') format('woff2'),             /* Super Modern Browsers */
+         url('../fonts/Poppins/Poppins-Regular.ttf') format('woff'),              /* Pretty Modern Browsers */
+         url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype'),          /* Safari, Android, iOS */
+         url('../fonts/Poppins/Poppins-Regular.ttf') format('svg');               /* Legacy iOS */
+}
