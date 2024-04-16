@@ -1,7 +1,12 @@
 <template>
   <div>
     <div class="font-bold font-xl">
-      <BaseMap />
+      <div>
+        
+      </div>
     </div>
   </div>
 </template>
+
+<script setup>
+</script>
