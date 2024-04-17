@@ -1,9 +1,9 @@
 import * as aq from 'arquero';
 
 async function loadCSV(points, filter) {
-  console.log(filter)
+  let dt = []
   try {
-    let dt = await aq.loadCSV('/db.csv');
+    dt = await aq.loadCSV('/db.csv');
     dt = dt.filter(aq.escape(d => d["Book"] === filter))
 
     const locations = dt.array('Location');
@@ -21,11 +21,13 @@ async function loadCSV(points, filter) {
       })
     }
     points.value = arrPoints;
+    return points.value
   } catch (error) {
     console.log(error)
   }
 }
 
 export default function (points, filter) {
-  return useState('loadCSV', () => loadCSV(points, filter))
+  const finalPoints = loadCSV(points, filter);
+  return useState('loadCSV', () => finalPoints)
 }

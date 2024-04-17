@@ -31,9 +31,11 @@
 </template>
 
 <script setup>
-const points = ref([])
+
+const points = useState('points')
 
 onMounted(() => {
+  console.log("mounting ------- KAFKA")
   useLoadCSV(points, "Kafka Sur Le Rivage");
 })
 

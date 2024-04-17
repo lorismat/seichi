@@ -31,9 +31,11 @@
 </template>
 
 <script setup>
-const points = ref([])
+
+const points = ref([]);
 
 onMounted(() => {
+  console.log("mounting ------- MUSASHI")
   useLoadCSV(points, "Musashi");
 })
 
